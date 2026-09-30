@@ -15,7 +15,7 @@ Do not commit those headers with real values. Read endpoints require only X-API-
 `POST http://localhost:8000/api/v1/services`
 
 ```json
-{"key":"my-api","name":"My API","environment":"staging","repository":"RajManohara/cyber-project","criticality":"high"}
+{"key":"my-api","name":"My API","environment":"staging","repository":"RajManohara/BuildBrother-AI","criticality":"high"}
 ```
 
 ## Record a deployment
@@ -27,7 +27,7 @@ Do not commit those headers with real values. Read endpoints require only X-API-
   "source_event_id":"release-2026-09-28-001",
   "service_key":"my-api",
   "environment":"staging",
-  "repository":"RajManohara/cyber-project",
+  "repository":"RajManohara/BuildBrother-AI",
   "commit_sha":"replace-with-actual-40-character-commit-sha",
   "workflow_run_id":811,
   "deployed_at":"2026-09-28T18:30:00Z",

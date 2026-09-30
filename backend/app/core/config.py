@@ -14,6 +14,6 @@ class Settings(BaseSettings):
     github_app_id: str = ""
     github_installation_id: int = 0
     github_private_key: str = ""
-    github_repository: str = "RajManohara/cyber-project"
+    github_repository: str = "RajManohara/BuildBrother-AI"
     github_api_version: str = "2026-03-10"
     collector_interval_seconds: int = Field(default=300, ge=60)

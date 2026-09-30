@@ -74,7 +74,7 @@ There are **no user accounts or demo login credentials**. The dashboard is a loc
 5. Use **Simulate event** to ingest a new safe event and create an investigation. It makes no external infrastructure changes.
 6. Save an investigation status/note, then ask the AI Analyst what changed or why items were grouped.
 
-Demo repositories are named `demo/...`, with the `synthetic` source and `demo` environment. They are not claims about `RajManohara/cyber-project`. Set `DEMO_MODE=false` before initializing a fresh database to omit demo seeding. Disabling seeding does not erase existing demo records.
+Demo repositories are named `demo/...`, with the `synthetic` source and `demo` environment. They are not claims about `RajManohara/BuildBrother-AI`. Set `DEMO_MODE=false` before initializing a fresh database to omit demo seeding. Disabling seeding does not erase existing demo records.
 
 ## Connect your actual GitHub repository
 

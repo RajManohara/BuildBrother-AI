@@ -17,7 +17,7 @@ Request repository permissions at **read-only** level:
 
 Metadata read access is implicit. Checks and Secret scanning are not used by this MVP and should not be requested. The collector does not download full job logs, avoiding unnecessary secret-bearing log storage.
 
-Install the App only on `RajManohara/cyber-project` (or another explicitly selected repository). Enabling security features and repository settings remains a user-managed step. A missing permission or unavailable feature is shown as unavailable rather than interpreted as an absence of risk.
+Install the App only on `RajManohara/BuildBrother-AI` (or another explicitly selected repository). Enabling security features and repository settings remains a user-managed step. A missing permission or unavailable feature is shown as unavailable rather than interpreted as an absence of risk.
 
 ## 2. Configure your local server
 
@@ -27,7 +27,7 @@ Run `python scripts/setup_local.py` first. In the gitignored root `.env`, set:
 GITHUB_APP_ID=your-app-id
 GITHUB_INSTALLATION_ID=your-installation-id
 GITHUB_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----\n...\n-----END RSA PRIVATE KEY-----"
-GITHUB_REPOSITORY=RajManohara/cyber-project
+GITHUB_REPOSITORY=RajManohara/BuildBrother-AI
 GITHUB_API_VERSION=2026-03-10
 ```
 
