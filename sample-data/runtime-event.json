@@ -1,0 +1,11 @@
+{
+  "source":"synthetic",
+  "source_event_id":"safe-sample-event-001",
+  "service_key":"payments-api",
+  "asset_key":"pod/payments-api-demo",
+  "environment":"demo",
+  "event_type":"network.unusual_outbound",
+  "severity":"medium",
+  "occurred_at":"2026-09-28T18:49:00Z",
+  "attributes":{"destination":"198.51.100.24","notice":"Synthetic example only; no network traffic is generated"}
+}
